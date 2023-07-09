@@ -1,0 +1,94 @@
+.gallery,
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: gray;
+}
+.about {
+  flex-direction: column;
+  width: 60%;
+  color: white;
+  padding: 30px;
+}
+img {
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.gallery-figure {
+  width: 100%;
+}
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: gainsboro;
+}
+* {
+  font-family: sans-serif;
+}
+figcaption {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+}
+figure {
+  margin: auto;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.content {
+  margin-left: 250px;
+}
+nav a {
+  margin-left: 40px;
+  font-size: 24px;
+}
+h2 {
+  text-align: center;
+}
+p {
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+}
+.about img {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+section {
+  margin: 80px auto;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+.sidebar a {
+  color: gray;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 25px 45px;
+}
+ul {
+  padding-left: 0px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
